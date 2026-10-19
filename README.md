@@ -1,31 +1,12 @@
-# Estadística para Data Science — Lesiones en deportistas universitarios
+# Práctica de estadística
 
-Proyecto de estadística aplicada sobre un dataset de **lesiones en atletas universitarios**, más dos ejercicios con datos simulados.
+Práctica final del módulo de estadística del máster. Para la parte libre elegí un dataset de lesiones en deportistas universitarios, que es un tema que me interesa y que luego retomé en el TFM.
 
-## Qué incluye
+Tiene cuatro partes:
 
-1. **Análisis descriptivo**: clasificación de variables (nominales, ordinales, discretas, continuas), estadísticos, distribuciones y outliers.
-2. **Inferencia y modelado**: matriz de correlación, relaciones bivariantes y modelo predictivo sobre la variable objetivo.
-3. **Regresión lineal desde cero**: implementación con NumPy, cálculo manual de MSE y R² y comparación con scikit-learn.
-4. **Series temporales**: remuestreo mensual, media móvil y descomposición en tendencia, estacionalidad y residuo (`seasonal_decompose`).
+1. Análisis descriptivo del dataset: tipos de variables, estadísticos, distribuciones y valores atípicos.
+2. Correlaciones entre variables y un modelo para predecir la variable objetivo.
+3. Una regresión lineal programada a mano con NumPy, calculando el MSE y el R² sin librerías, y comparándola después con la de scikit-learn.
+4. Series temporales con datos simulados: medias mensuales, media móvil y descomposición en tendencia y estacionalidad.
 
-## Archivos
-
-| Archivo | Descripción |
-|---|---|
-| `PracticaEstadistica__Alconada Diaz_Daniel_.ipynb` | Notebook con las 4 partes |
-| `collegiate_athlete_injury_dataset.csv` | Dataset |
-
-## Tecnologías
-
-Python · Pandas · NumPy · SciPy · statsmodels · scikit-learn · Matplotlib · Seaborn
-
-## Cómo ejecutarlo
-
-```bash
-pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn jupyter
-jupyter notebook
-```
-
----
-Proyecto del Máster en Data Science & IA (Evolve) · [Daniel Alconada](https://github.com/danialco9)
+Todo está en el notebook, junto al CSV con los datos.
